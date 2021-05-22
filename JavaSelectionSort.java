@@ -3,7 +3,10 @@ import static java.lang.System.currentTimeMillis;
 import java.util.Scanner;
 /**
  *
- * @author adi
+ * @author Adi Sepriyadi 
+ * TI20E REG B 
+ * Universitas Nusa Putra
+ * 
  */
 public class JavaSelectionSort {
 
