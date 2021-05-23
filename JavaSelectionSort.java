@@ -18,6 +18,7 @@ public class JavaSelectionSort {
         System.out.println("Masukan Jumlah Data yang akan di SORTIR:");
         int jumdata = scan.nextInt();
         int [] data = new int[jumdata];
+        int swap =0;
         System.out.println("");
         for (int x=0; x<jumdata; x++)
         {
@@ -47,6 +48,7 @@ public class JavaSelectionSort {
                         tukar=true;
                         index =y;
                         min= data[y];
+                        swap++;
                     }
                 }
                 if (tukar == true){
@@ -67,6 +69,7 @@ public class JavaSelectionSort {
                     }
                     long endTime = System.currentTimeMillis();
                     System.out.println("Waktu pertukaran : " + (endTime - startTime) + " milidetik");
+                    System.out.println("Total pertukaran : " + swap);
                     System.out.println("=======================================================");
             }
         
